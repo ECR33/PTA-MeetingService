@@ -1,0 +1,121 @@
+/* @theme pta-style */
+
+@import "default";
+
+section.top h1+p {
+  font-size: 0.8em;
+  margin-top: 3em;
+  margin-left: 1em;
+}
+
+section.top h1 {
+  color: #4a6ca1;
+  border-bottom: dashed 2px #6594e0;
+}
+
+
+div.author {
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 10%;
+  right: 3%;
+}
+
+h2 {
+  padding: 0.25em 0.5em;
+  color: #494949;
+  background: transparent;
+  border-left: solid 2rem #7db4e6;
+}
+
+section.indent h2+p {
+  margin-top: 2em;
+  margin-left: 1em;
+  text-indent: .8em;
+}
+
+section.indent h3+p {
+  margin-top: 2em;
+  margin-left: 1em;
+  text-indent: .8em;
+}
+
+section.indent p {
+  margin-left: 1em;
+  text-indent: .8em;
+}
+
+section.no_indent h3+p {
+  margin-top: 2em;
+  margin-left: 2em;
+  text-indent: 0;
+}
+
+section.normal h3+p {
+  margin-top: 0em;
+  margin-left: 1em;
+  text-indent: 0;
+}
+
+h3 {
+  padding: 0.25em 0.5em;
+  color: #494949;
+  background: transparent;
+  border-left: solid 10px #7db4e6;
+}
+
+section.indent ul {
+  margin-left: 2em;
+  padding-left: 1em;
+}
+
+section.no_indent ul {
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+section.indent ul ul {
+  margin-left: 0em;
+  padding-left: 1em;
+}
+
+section.no_indent ul ul {
+  margin-left: 0em;
+  padding-left: 1em;
+}
+
+table {
+  margin-left: 1em;
+}
+
+th {
+  font-weight: normal !important;
+}
+
+.color_red {
+  color: red;
+}
+
+blockquote {
+  font-size: 0.8em;
+}
+
+.small {
+  font-size: .8em;
+  text-indent: .8em;
+}
+
+.x-small {
+  margin-top: 2em;
+  font-size: .6em;
+  margin-left: 1em;
+}
+
+.harf {
+  width: 80vw;
+}
+
+.list p {
+  text-indent: -1em;
+  margin-left: 2em;
+}
